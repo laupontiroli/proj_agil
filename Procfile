@@ -1,1 +1,1 @@
-web: gunicorn primeiro_flask/app:app
+web: gunicorn --chdir ./primeiro_flask app:app
